@@ -1,13 +1,14 @@
 
 # 📚 Java 알고리즘 스터디
 
-### 스터디 참가자
-## 📌 스터디원 구성 (6명)
+
+### 📌 스터디원 구성 (6명)
+
 | 프로필 | 이름 | 프로필 | 이름 |
 |--------|------|--------|------|
 | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진 (조장)](https://github.com/westjin) | <img src="https://avatars.githubusercontent.com/suminiee?v=4" width="100"> | [강수민](https://github.com/suminiee) |
 | <img src="https://avatars.githubusercontent.com/YeomDa?v=4" width="100"> | [염다빈](https://github.com/YeomDa) | <img src="https://avatars.githubusercontent.com/icegosimperson?v=4" width="100"> | [이혜원](https://github.com/icegosimperson) |
-| <img src="https://avatars.githubusercontent.com/GreenTea0413?v=4" width="100"> | [김보성](https://github.com/GreenTea0413) |  |  |
+| <img src="https://avatars.githubusercontent.com/GreenTea0413?v=4" width="100"> | [김보성](https://github.com/GreenTea0413) | <img src="https://avatars.githubusercontent.com/HoreungHoreung?v=4" width="100"> | [이호진](https://github.com/HoreungHoreung) |
 
 
 ## 🔹 우선순위
