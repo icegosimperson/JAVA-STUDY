@@ -1,13 +1,14 @@
 
 # 📚 Java 알고리즘 스터디
 
-### 스터디 참가자
-## 📌 스터디원 구성 (6명)
+
+### 📌 스터디원 구성 (6명)
+
 | 프로필 | 이름 | 프로필 | 이름 |
 |--------|------|--------|------|
 | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진 (조장)](https://github.com/westjin) | <img src="https://avatars.githubusercontent.com/suminiee?v=4" width="100"> | [강수민](https://github.com/suminiee) |
 | <img src="https://avatars.githubusercontent.com/YeomDa?v=4" width="100"> | [염다빈](https://github.com/YeomDa) | <img src="https://avatars.githubusercontent.com/icegosimperson?v=4" width="100"> | [이혜원](https://github.com/icegosimperson) |
-| <img src="https://avatars.githubusercontent.com/GreenTea0413?v=4" width="100"> | [김보성](https://github.com/GreenTea0413) |  |  |
+| <img src="https://avatars.githubusercontent.com/GreenTea0413?v=4" width="100"> | [김보성](https://github.com/GreenTea0413) | <img src="https://avatars.githubusercontent.com/HoreungHoreung?v=4" width="100"> | [이호진](https://github.com/HoreungHoreung) |
 
 
 ## 🔹 우선순위
@@ -23,7 +24,7 @@
 - 기간: KB 과정 종료 까지
 - 오프라인 일정:
   - 시간: 2시간 소요
-  - 1시간 발표 (인당 10분), 나머지 한시간은 다음 알고리즘 40분 학습 후 과제 배정 후 해산
+  - 1시간 발표 (인당 10분), 나머지 한시간은 다음주 공부할 알고리즘 발표 15분 개념설명후 과제 배정 후 해산
   - 장소: TBD
 - 문제 난이도: 브론즈 ~ 실버 1 (최종 추가 예정)
 - 사용 언어: Java
