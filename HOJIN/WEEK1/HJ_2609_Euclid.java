@@ -2,9 +2,9 @@ import java.util.*;
 import java.io.*;
 /*
 유클리드 호제법: 2개의 수의 최대공약수를 구하는 알고리즘
-O(n)
-
+O(Log(min(a, b)))
  */
+
 public class HJ_2609_Euclid {
     private static int GCD(int num1, int num2) {
         if(num1 % num2 == 0) return num2;
