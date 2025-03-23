@@ -20,6 +20,5 @@ public class HJ_2609_Raw {
 
         System.out.println(maxDivisor);
         System.out.println(minMultiplier);
-
     }
 }
