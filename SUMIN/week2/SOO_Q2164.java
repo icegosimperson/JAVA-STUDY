@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SOO_2164 {
+public class SOO_Q2164 {
     public static void main(String[] args) throws IOException {
         //큐 선언
         Queue<Integer> cardQueue = new LinkedList<>();
