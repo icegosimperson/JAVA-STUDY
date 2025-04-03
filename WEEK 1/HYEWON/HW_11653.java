@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 ex) N=3일 경우, sqrt(3) ~= 1,73 으로 계산 되지 않음
 -> 나머지 처리 과정 필요 -> if(N!=1) 조건 추가
  */
-class Main{
+class HW_11653{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
