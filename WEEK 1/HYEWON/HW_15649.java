@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 중복 없이
 
  */
-class Main{
+class HW_15649{
     static int N, M;
     static boolean[] visited = new boolean[9];
     static int[] arr = new int[9];
