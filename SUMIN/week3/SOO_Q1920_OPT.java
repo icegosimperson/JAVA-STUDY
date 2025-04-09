@@ -7,34 +7,25 @@ import java.util.StringTokenizer;
 public class SOO_Q1920_OPT {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
-        int ansLength =  Integer.parseInt(br.readLine());
-        int[] arrA = new int[ansLength]; // 정답을 담을 배열 선언
+        int n =  Integer.parseInt(br.readLine());
+        int[] arrA = new int[n]; // 정답을 담을 배열 선언
 
-        st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < ansLength; i++) {
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        for(int i = 0; i < n; i++) {
             arrA[i] = Integer.parseInt(st.nextToken());
         }
 
         Arrays.sort(arrA);
 
-        int inputLength = Integer.parseInt(br.readLine());
-
+        int m = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
-        for (int j = 0; j < inputLength; j++) {
-            int checkNum = Integer.parseInt(st.nextToken());
-            if (Arrays.binarySearch(arrA, checkNum) >= 0) {
-                sb.append(1).append('\n');
-            } else {
-                sb.append(0).append('\n');
-            }
-        }
 
-        bw.write(sb.toString());
-        bw.flush();
-        bw.close();
+        while(st.hasMoreTokens()) { //while을 사용하면 m을 굳이 사용하지 않아도 된다.
+            int target = Integer.parseInt(st.nextToken());
+            sb.append(Arrays.binarySearch(arrA, target) >= 0 ? 1 : 0).append('\n');
+        }
+        System.out.println(sb);
     }
 }
