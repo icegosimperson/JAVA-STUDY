@@ -1,5 +1,3 @@
-import static java.lang.Math.min;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -57,7 +55,7 @@ public class SJ_2512 {
     public static boolean isPossible(int mid){
         int sum = 0;
         for (int request : arr) {
-            sum += min(request,mid);
+            sum += Math.min(request,mid);
         }
         if (sum > max){
             return false;
