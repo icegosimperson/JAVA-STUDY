@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 A={10 20 10 30 20 50}
 10, 20
  */
-class HW_11053{
+class HW_11722{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
