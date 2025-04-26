@@ -28,7 +28,7 @@ public class BS_11722 {
                 // j는 4 -> 1
                 if(arr[i] < arr[j]){
                     dp[i] = Math.max(dp[i], dp[j] + 1);
-                    answer = Math.max(dp[i],answer);
+                    answer = Math.max(dp[i], answer);
                 }
             }
         }   
