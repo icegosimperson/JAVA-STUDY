@@ -26,7 +26,7 @@ public class BS_1780 {
             if(num == 0) paper_0 += 1;
             if(num == 1) paper_1 += 1;
             return;
-       }
+        }
 
         int newSize = size / 3;
         for (int i = 0; i < 3; i++) {
