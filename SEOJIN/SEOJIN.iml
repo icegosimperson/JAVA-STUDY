@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/WEEK1" isTestSource="false" packagePrefix="Algorithm.DataStructure" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/idividual" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
