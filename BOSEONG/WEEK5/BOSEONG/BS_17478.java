@@ -23,6 +23,7 @@ public class BS_17478 {
             System.out.println(st + "라고 답변하였지.");
         }
     }
+    //
     
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
