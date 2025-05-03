@@ -4,6 +4,7 @@ import java.io.*;
 
 public class Q1992 {
     static int[][] video;
+    static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -18,14 +19,19 @@ public class Q1992 {
             }
         }
 
+        division(0, 0, N);
+        System.out.println(sb);
+
     }
 
     public static void division(int x, int y, int N) {
 
         if(check(x, y, N)) {
-
+            sb.append(video[x][y]);
             return;
         }
+
+        sb.append("("); //시작 괄호 추가
 
         int size = N / 2;
 
@@ -38,11 +44,19 @@ public class Q1992 {
         //아래 오른쪾
         division(x+size, y+size, size);
 
+        sb.append(")"); //끝 괄호 추가
+
     }
 
     public static boolean check(int x, int y, int N) {
         if (N == 1) return true;
+        int firstNum = video[x][y];
 
+        for (int i = x; i < x+N; i++) {
+            for (int j = y; j < y+N; j++) {
+                if (video[i][j] != firstNum) return false;
+            }
+        }
         return true;
     }
 
