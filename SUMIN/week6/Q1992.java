@@ -41,7 +41,7 @@ public class Q1992 {
         division(x, y+size, size);
         //아래 왼쪽
         division(x+size, y, size);
-        //아래 오른쪾
+        //아래 오른쪽
         division(x+size, y+size, size);
 
         sb.append(")"); //끝 괄호 추가
@@ -51,7 +51,6 @@ public class Q1992 {
     public static boolean check(int x, int y, int N) {
         if (N == 1) return true;
         int firstNum = video[x][y];
-
         for (int i = x; i < x+N; i++) {
             for (int j = y; j < y+N; j++) {
                 if (video[i][j] != firstNum) return false;
@@ -61,14 +60,3 @@ public class Q1992 {
     }
 
 }
-
-
-//8
-//        11110000
-//        11110000
-//        00011100
-//        00011100
-//        11110000
-//        11110000
-//        11110011
-//        11110011
