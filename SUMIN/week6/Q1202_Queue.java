@@ -1,4 +1,4 @@
-package SUMIN.week7;
+package SUMIN.week6;
 
 import java.util.*;
 import java.io.*;

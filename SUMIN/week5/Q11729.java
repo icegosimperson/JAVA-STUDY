@@ -1,6 +1,5 @@
-package SUMIN.week6;
+package SUMIN.week5;
 
-import java.util.*;
 import java.io.*;
 //하노이 탑 이동 순서
 public class Q11729 {
