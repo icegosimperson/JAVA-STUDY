@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/WEEK3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WEEK4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/idividual" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dfs_bfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK5" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
