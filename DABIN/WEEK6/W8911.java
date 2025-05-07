@@ -1,8 +1,6 @@
-package DABIN.WEEK5;
+package DABIN.WEEK6;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class W8911 {
     // 북, 동, 남, 서
@@ -12,16 +10,16 @@ public class W8911 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int T = Integer.parseInt(br.readLine());
-        while (T-- > 0) {
-            String commands = br.readLine();
+        int tcase = Integer.parseInt(br.readLine());
+        while (tcase> 0) {
+            String c = br.readLine();
 
             int x = 0, y = 0;        // 현재 위치
             int dir = 0;            // 0: 북, 1: 동, 2: 남, 3: 서
 
             int minX = 0, maxX = 0, minY = 0, maxY = 0;
 
-            for (char cmd : commands.toCharArray()) {
+            for (char cmd : c.toCharArray()) {
                 if (cmd == 'F') {
                     x += dx[dir];
                     y += dy[dir];
@@ -40,7 +38,7 @@ public class W8911 {
                 minY = Math.min(minY, y);
                 maxY = Math.max(maxY, y);
             }
-
+            tcase--;
             int area = (maxX - minX) * (maxY - minY);
             System.out.println(area);
         }

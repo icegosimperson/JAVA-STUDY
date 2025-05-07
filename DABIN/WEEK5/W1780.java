@@ -1,9 +1,7 @@
 package DABIN.WEEK5;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class W1780 {
     static int[][] map;
