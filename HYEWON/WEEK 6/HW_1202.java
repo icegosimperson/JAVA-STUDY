@@ -22,7 +22,7 @@ class HW_1202 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> b.price - a.price);
+        PriorityQueue<Node> pq = new PriorityQueue<>();
 
         int N = Integer.parseInt(st.nextToken()); // 보석의 개수
         int K = Integer.parseInt(st.nextToken()); // 상덕이가 가진 가방의 개수
