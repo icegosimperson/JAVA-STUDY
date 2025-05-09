@@ -1,6 +1,5 @@
-package SUMIN.week5;
+package SUMIN.week4;
 
-import java.util.*;
 import java.io.*;
 
 public class Q1463_refactor {
