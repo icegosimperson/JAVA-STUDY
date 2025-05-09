@@ -24,6 +24,7 @@ public class BS_1629 {
         if(b == 1){
             return a % c;
         }
+        //
         // 지수가 1 이상이면 지수를 반으로 나누어 다시 나머지 구하기
         // 처음 newSize는 b 가 1일 때까지 내려가서 하니까 10 % 12
         // 그 다음 반환해서 오면 10을 가지고 b는 2이니까 바로 newSize * newSize % c

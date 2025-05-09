@@ -34,6 +34,7 @@ public class BS_1992 {
             answer += ')';
         }
     }
+    //
     public static void main(String[] args) throws IOException{
         // (0(0011)(0(0111)01)1)
         // 어우 문제 진짜 더러워
