@@ -5,6 +5,7 @@ import java.util.*;
 
 public class W15486 {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) throws IOException {
         // 입력 처리
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
