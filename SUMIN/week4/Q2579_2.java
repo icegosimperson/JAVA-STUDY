@@ -14,8 +14,6 @@ public class Q2579_2 {
         int[] dp = new int[stairNum+1];
 
         dp[0] = 0;
-//        if (stairNum >= 1) dp[1] = score[1];
-//        if (stairNum >= 2) dp[2] = score[1] + score[2];
         if (stairNum >= 1) dp[1] = score[1];
         if (stairNum >= 2) dp[2] = score[1] + score[2];
 
