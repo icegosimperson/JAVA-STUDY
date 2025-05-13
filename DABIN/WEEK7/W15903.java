@@ -4,27 +4,28 @@ import java.util.*;
 
 public class W15903 {
     public static void main(String[] args) {
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
-        int result=0;
-        for(int i=0;i<n;i++){
-            int a = sc.nextInt();
-            queue.offer(a);
+        int n = sc.nextInt(); // 카드 개수
+        int m = sc.nextInt(); // 합체 횟수
+
+        PriorityQueue<Long> queue = new PriorityQueue<>();
+              
+
+        for (int i = 0; i < n; i++) {
+            queue.offer(sc.nextLong());
         }
-        for(int i=0;i<m;i++){
-            int sum=0;
-            int j=0;
-            while(j<2){
-                sum+=queue.poll();
-                j++;
-            }
+
+        for (int i = 0; i < m; i++) {
+            long first = queue.poll();
+            long second = queue.poll();
+            long sum = first + second;
             queue.offer(sum);
             queue.offer(sum);
         }
-        while(!queue.isEmpty()){
-            result+=queue.poll();
+
+        long result = 0;
+        while (!queue.isEmpty()) {
+            result += queue.poll();
         }
 
         System.out.println(result);
