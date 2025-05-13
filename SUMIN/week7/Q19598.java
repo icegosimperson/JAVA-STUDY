@@ -10,8 +10,8 @@ import java.io.*;
 
 public class Q19598 {
     private static class Time implements Comparable<Time>{
-        int time;
-        boolean isStart;
+        int time; //시간(시작일수도 있고 끝나는 시간일수도 있음)
+        boolean isStart; // 시작시간인지 확인하기 위한 boolean type 변수
 
         public Time(int time, boolean isStart) {
             this.time = time;

@@ -4,42 +4,71 @@ import java.util.*;
 import java.io.*;
 
 public class Q11657 {
+    static final int INF = Integer.MAX_VALUE;
+    static int[] dist;
 
-    private static class Bus {
-        int startCity;
-        int endCity;
-        int time;
+    static class Edge {
+        int start;
+        int target;
+        int cost;
 
-        public Bus(int startCity, int endCity, int time) {
-            this.startCity = startCity;
-            this.endCity = endCity;
-            this.time = time;
+        public Edge(int start, int target, int cost) {
+            this.start = start;
+            this.target = target;
+            this.cost = cost;
         }
     }
-    static ArrayList<Bus> graph;
-    static final int INF = Integer.MAX_VALUE;
-
-    public static boolean BellmanFord(int n, int m, int start) {
-        //모든 정점까지 최소비용을 INF값으로 초기화
-        return true;
-    }
-
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 
         st = new StringTokenizer(br.readLine());
-        int cityCnt = Integer.parseInt(st.nextToken());
-        int busNodeCnt = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
-        graph = new ArrayList<>(busNodeCnt);
-        for (int i = 0; i < busNodeCnt; i++) {
+        dist = new int[N+1];
+        Arrays.fill(dist, INF);
+        dist[1] = 0; // 1번 노드에서 출발(1번 노드 값 0으로 바꿔주기)
+
+        ArrayList<Edge> edges = new ArrayList<>();
+        for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            graph.add(new Bus(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())));
+            edges.add(new Edge(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())));
         }
 
-        System.out.println(BellmanFord(cityCnt, busNodeCnt, 1));
+        //벨만-포드 알고리즘
+        for (int i = 1; i < N; i++) {
+            boolean updated = false;
+            for (Edge e : edges) {
+                if (dist[e.start] != INF && dist[e.target] > dist[e.start] + e.cost) {
+                    dist[e.target] = dist[e.start] + e.cost;
+                    updated = true;
+                }
+            }
+            //더이상 업데이트 없으면 종료
+            if (!updated) break;
+        }
+
+        //음수 간선인지 확인
+        for (Edge e : edges) {
+            if (dist[e.start] != INF && dist[e.target] > dist[e.start] + e.cost) {
+                //음수간선이면 첫쨰줄에 -1 출력하고 종료
+                System.out.println(-1);
+                return;
+            }
+        }
+
+       for (int i = 2; i <= N; i++) {
+           //1에서 갈 수 없는 노드라면 -1 출력
+           if (dist[i] == INF) System.out.println(-1);
+           else {
+               //그 외에는 dist[i]출력
+               System.out.println(dist[i]);
+           }
+       }
+
+
+
 
     }
 }

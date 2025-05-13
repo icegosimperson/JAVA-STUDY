@@ -42,9 +42,9 @@ public class Q19598_2 {
         for (Meeting m : meetingList) {
             //이미 끝난 방이 있다면 재사용
             if (!pq.isEmpty() && pq.peek() <= m.start) {
-                pq.poll();
+                pq.poll(); //기존 회의 끝났으니 회의실 재사용
             }
-            //우선순위 큐에 끝나는 시간 저장
+            //우선순위 큐에 이 회의의 종료시간 저장
             pq.add(m.end);
         }
 
