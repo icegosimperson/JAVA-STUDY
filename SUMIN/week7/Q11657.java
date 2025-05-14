@@ -4,15 +4,15 @@ import java.util.*;
 import java.io.*;
 
 public class Q11657 {
-    static final int INF = Integer.MAX_VALUE;
-    static int[] dist;
+    static final long INF = Long.MAX_VALUE;
+    static long[] dist;
 
     static class Edge {
         int start;
         int target;
-        int cost;
+        long cost;
 
-        public Edge(int start, int target, int cost) {
+        public Edge(int start, int target, long cost) {
             this.start = start;
             this.target = target;
             this.cost = cost;
@@ -26,7 +26,7 @@ public class Q11657 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        dist = new int[N+1];
+        dist = new long[N+1];
         Arrays.fill(dist, INF);
         dist[1] = 0; // 1번 노드에서 출발(1번 노드 값 0으로 바꿔주기)
 
@@ -37,7 +37,7 @@ public class Q11657 {
         }
 
         //벨만-포드 알고리즘
-        for (int i = 1; i < N; i++) {
+        for (int i = 0; i < N-1; i++) {
             boolean updated = false;
             for (Edge e : edges) {
                 if (dist[e.start] != INF && dist[e.target] > dist[e.start] + e.cost) {
@@ -53,7 +53,7 @@ public class Q11657 {
         for (Edge e : edges) {
             if (dist[e.start] != INF && dist[e.target] > dist[e.start] + e.cost) {
                 //음수간선이면 첫쨰줄에 -1 출력하고 종료
-                System.out.println(-1);
+                System.out.print(-1);
                 return;
             }
         }
