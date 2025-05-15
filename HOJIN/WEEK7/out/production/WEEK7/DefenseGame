@@ -1,0 +1,36 @@
+import java.util.*;
+
+class Solution {
+    private static PriorityQueue<Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>() {
+        @Override
+        public int compare(Integer a, Integer b) {
+            return b - a;
+        }
+    });
+
+    public int solution(int n, int k, int[] enemy) {
+        int answer = 0;
+
+        int round = 0;
+        maxHeap.offer(0);
+        while(true) {
+            if(round == enemy.length) break;
+            if(n < enemy[round] && k == 0) break;
+
+            int currEnemy = enemy[round];
+            maxHeap.offer(currEnemy);
+            n -= currEnemy;
+
+            if(n < 0) {
+                n += maxHeap.poll();
+                k--;
+            }
+
+            round++;
+        }
+
+        answer = round;
+
+        return answer;
+    }
+}
