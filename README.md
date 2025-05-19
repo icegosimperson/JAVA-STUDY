@@ -60,12 +60,11 @@
 | 5주차 | 그래프 (DFS/BFS) | HashMap, HashSet, PriorityQueue |
 | 6주차 | 최단경로 | Comparable, PriorityQueue, Graph 자료구조 |
 | 7주차 | 이분탐색 | Binary Search 구현, Arrays.binarySearch |
-| 8주차 | 분할정복 | 재귀, DFS, 스택 프레임 이해 |
-| 9주차 | 그리디 | Greedy 패턴, 정렬, PriorityQueue 활용 |
-| 10주차 | 완전탐색 / 시뮬레이션 / 구현 | 구현력, for문, 조건문 복습 |
-| 11주차 | 문자열 | StringBuilder, StringTokenizer |
-| 12주차 | 투 포인터, 슬라이딩 윈도우 | 투포인터 패턴, 배열 인덱스 관리 |
-| 13주차 | 백트래킹 | 재귀, DFS, 스택 프레임 이해 |
+| 8주차 | 그리디 | Greedy 패턴, 정렬, PriorityQueue 활용 |
+| 9주차 | 완전탐색 / 시뮬레이션 / 구현 | 구현력, for문, 조건문 복습 |
+| 10주차 | 문자열 | StringBuilder, StringTokenizer |
+| 11주차 | 투 포인터, 슬라이딩 윈도우 | 투포인터 패턴, 배열 인덱스 관리 |
+| 12주차 | 백트래킹 | 재귀, DFS, 스택 프레임 이해 |
 
 
 ### ◉ 문제 해결 & 발표
