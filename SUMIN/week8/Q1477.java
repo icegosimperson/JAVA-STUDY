@@ -12,21 +12,37 @@ public class Q1477 {
         int M = Integer.parseInt(st.nextToken());
         int L = Integer.parseInt(st.nextToken());
 
-        int[] locate = new int[N];
+        int[] locate = new int[N+2];
+        locate[0] = 0;
+        locate[1] = L;
         st = new StringTokenizer(br.readLine());
-        int max = 0;
-        for (int i = 0; i < N; i++) {
+        for (int i = 2; i < N+2; i++) {
             locate[i] = Integer.parseInt(st.nextToken());
-            max = Math.max(max, locate[i]);
         }
+
+        Arrays.sort(locate);
+        int answer = binary_search(locate, M, L);
+        System.out.println(answer);
     }
 
-    static int binary_search(int[] arr, int size, int max) {
-        int min = 1;
-        int half = 0;
+    static int binary_search(int[] arr, int M, int L) {
+        int start = 1;
+        int end = L - 1;
 
+        while (start <= end) {
+            int half = (start + end) / 2;
+            int count = 0; //휴게소 개수
 
+            for (int i = 0; i < arr.length - 1; i++) {
+                count += (arr[i+1] - arr[i] - 1) / half;
+            }
 
-        return max;
+            if (count <= M) {
+                end = half - 1;
+            } else {
+                start = half + 1;
+            }
+        }
+        return start;
     }
 }
