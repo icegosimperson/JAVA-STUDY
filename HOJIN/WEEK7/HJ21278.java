@@ -43,6 +43,7 @@ public class HJ21278 {
                 long total = 0;
                 for(int k = 0; k < N; k++) {
                     if(k == i || k == j) continue;
+
                     total += Math.min(dist[k][i], dist[k][j]) * 2;
                 }
 
@@ -58,8 +59,5 @@ public class HJ21278 {
         bw.write((answer1 + 1) + " " + (answer2 + 1) + " " + minTotal);
         bw.flush();
         bw.close();
-
-
-
     }
 }
