@@ -10,7 +10,6 @@ public class Q2110 {
 
         int N = Integer.parseInt(st.nextToken()); //집의 개수
         int C = Integer.parseInt(st.nextToken()); //공유기의 개수
-
         int[] house = new int[N];
 
         for (int i = 0; i < N; i++) {
