@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f93d7bd-cd61-439a-808f-305ce85724bc" name="변경" comment="[PG] 43164 여행경로_20250611">
+    <list default="true" id="8f93d7bd-cd61-439a-808f-305ce85724bc" name="변경" comment="edit: 코드 날아간거 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,7 @@
       <workItem from="1749622036568" duration="943000" />
       <workItem from="1749688767481" duration="44000" />
       <workItem from="1749688814698" duration="274000" />
-      <workItem from="1749718928655" duration="613000" />
+      <workItem from="1749718928655" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 불필요한 코드 제거">
       <option name="closed" value="true" />
@@ -398,14 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1749622080083</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="edit: 코드 날아간거 수정">
+      <option name="closed" value="true" />
+      <created>1749720058156</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1749720058156</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[BOJ] 10282 해킹_250514" />
     <MESSAGE value="[BOJ] 1654 랜선 자르기_250519" />
     <MESSAGE value="[BOJ] 2805 나무 자르기_250519" />
     <MESSAGE value="[BOJ] 1477 휴게소 세우기_250519" />
@@ -430,6 +437,7 @@
     <MESSAGE value="[BOJ] 17779 게리맨더링2_20250611" />
     <MESSAGE value="[PG] 1835 단체사진 찍기_20250611" />
     <MESSAGE value="[PG] 43164 여행경로_20250611" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PG] 43164 여행경로_20250611" />
+    <MESSAGE value="edit: 코드 날아간거 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit: 코드 날아간거 수정" />
   </component>
 </project>
