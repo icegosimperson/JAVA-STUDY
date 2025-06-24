@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f93d7bd-cd61-439a-808f-305ce85724bc" name="변경" comment="edit: 코드 날아간거 수정">
+    <list default="true" id="8f93d7bd-cd61-439a-808f-305ce85724bc" name="변경" comment="[BOJ] 2580 스도쿠_250623">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,14 @@
       <workItem from="1749622036568" duration="943000" />
       <workItem from="1749688767481" duration="44000" />
       <workItem from="1749688814698" duration="274000" />
-      <workItem from="1749718928655" duration="1472000" />
+      <workItem from="1749718928655" duration="1732000" />
+      <workItem from="1749795040322" duration="41000" />
+      <workItem from="1749903701184" duration="74000" />
+      <workItem from="1749969698921" duration="2000" />
+      <workItem from="1750248675031" duration="45000" />
+      <workItem from="1750491954593" duration="37000" />
+      <workItem from="1750595243407" duration="642000" />
+      <workItem from="1750678016418" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="docs : 불필요한 코드 제거">
       <option name="closed" value="true" />
@@ -406,20 +413,69 @@
       <option name="project" value="LOCAL" />
       <updated>1749720058156</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[BOJ] 2671 잠수함 식별_250612">
+      <option name="closed" value="true" />
+      <created>1749791771076</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1749791771076</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[BOJ] 9935 문자열 폭발_250613">
+      <option name="closed" value="true" />
+      <created>1749795065402</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1749795065402</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[BOJ] 3005 크로스워드 퍼즐 쳐다보기_250614">
+      <option name="closed" value="true" />
+      <created>1749903737756</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1749903737756</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[BOJ] 1958 LCS 3_250618">
+      <option name="closed" value="true" />
+      <created>1750248708694</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1750248708694</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[BOJ] 1713 후보 추천_250621">
+      <option name="closed" value="true" />
+      <created>1750491983778</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1750491983778</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[BOJ] 9663 N Queens_250622">
+      <option name="closed" value="true" />
+      <created>1750595281179</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1750595281179</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[BOJ] 2580 스도쿠_250623">
+      <option name="closed" value="true" />
+      <created>1750678038040</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1750678038040</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[BOJ] 1654 랜선 자르기_250519" />
-    <MESSAGE value="[BOJ] 2805 나무 자르기_250519" />
-    <MESSAGE value="[BOJ] 1477 휴게소 세우기_250519" />
-    <MESSAGE value="[BOJ] 2110 휴게소 세우기_250519" />
-    <MESSAGE value="[BOJ] 14500 테트로미노_250519" />
-    <MESSAGE value="[PG] 43236 징검다리_250520" />
-    <MESSAGE value="[PG] 43238 입국심사_250520" />
     <MESSAGE value="[PG] 67256 키패드 누르기_250521" />
     <MESSAGE value="[BOJ] 16953 A-&gt;B_250521" />
     <MESSAGE value="[BOJ] 13305 주유소_250522" />
@@ -438,6 +494,13 @@
     <MESSAGE value="[PG] 1835 단체사진 찍기_20250611" />
     <MESSAGE value="[PG] 43164 여행경로_20250611" />
     <MESSAGE value="edit: 코드 날아간거 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit: 코드 날아간거 수정" />
+    <MESSAGE value="[BOJ] 2671 잠수함 식별_250612" />
+    <MESSAGE value="[BOJ] 9935 문자열 폭발_250613" />
+    <MESSAGE value="[BOJ] 3005 크로스워드 퍼즐 쳐다보기_250614" />
+    <MESSAGE value="[BOJ] 1958 LCS 3_250618" />
+    <MESSAGE value="[BOJ] 1713 후보 추천_250621" />
+    <MESSAGE value="[BOJ] 9663 N Queens_250622" />
+    <MESSAGE value="[BOJ] 2580 스도쿠_250623" />
+    <option name="LAST_COMMIT_MESSAGE" value="[BOJ] 2580 스도쿠_250623" />
   </component>
 </project>
